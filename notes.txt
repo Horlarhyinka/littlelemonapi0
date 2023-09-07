@@ -1,0 +1,18 @@
+superuser:
+username = horlarh
+password = horlarh
+
+managers:
+username = user01
+password = firstuserpassword
+
+username = user02
+password = seconduserpassword
+
+delivery_crew:
+username = user03
+password = thirduserpassword
+
+customer:
+username = user04
+password = fourthuserpassword

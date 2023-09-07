@@ -194,7 +194,7 @@ class OrdersView(generics.ListCreateAPIView):
 
 class OrderItemsView(generics.ListCreateAPIView):
     queryset = OrderItem.objects.all()
-    serializer_class = MenuItemsSerializer
+    serializer_class = OrderItemSerializer
     def post(self, request):
         usercart = Cart.objects.get(user= request.user.pk)
         menuitem = usercart.menuitem
